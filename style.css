@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(224, 224, 249);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.images {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+}
+
+.images img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    transition: all 0.4s linear;
+}
